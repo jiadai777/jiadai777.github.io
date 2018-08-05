@@ -1,0 +1,22 @@
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+#answer {
+	width: 20%;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}

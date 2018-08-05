@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Black Jack Game</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+<body>
+	<div id="ai-cards">
+		<h3>Opponent's Cards:</h3>
+	</div>
+	<div id="dashboard">
+		<div id="scores">
+			<h3 id="player-score">Your total: 0</h3>
+			<h3 id="ai-score">Opponent total: 0</h3>
+			<h3 id="result">Game Result: In Progress</h3>
+		</div>
+		<div id="buttons">
+			<button id="draw-btn" class="btn btn-lg btn-primary" onclick="player_draw()">Draw</button>
+			<button class="btn btn-lg btn-success" onclick="player_finish()">Finish</button>
+			<button id="start-btn" class="btn btn-lg btn-warning" onclick="reset_game()">Start Game</button>
+		</div>
+		<div id="actions">
+			<p>Press "Start" to start the game.</p>
+		</div>
+	</div>
+
+	<div id="player-cards">
+		<h3>Your Cards:</h3>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Addition</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<h2 class="text-center" id="title">Answer without using a calculator</h2>
+	<div class="container col-sm-6 col-sm-offset-3 text-center">
+		<h3 id="result">Type in your answer and submit to see result.</h3>
+		<h3 id="question" class="col-sm-6 text-right"></h3>
+		<input type="text" class="form-control" id="answer">
+		<br>
+		<button class="btn btn-primary btn-lg" onclick="checkResult()">Submit</button>
+		<button class="btn btn-primary btn-lg" onclick="nextQuestion()">Next</button>
+	</div>
+	<h2 class="col-sm-6" id="total">Total Number of Attempted Questions: 0</h2>
+	<h2 class="col-sm-2 green" id="correct">Correct: 0</h2>
+	<h2 class="col-sm-2 red" id="wrong">Wrong: 0</h2>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
