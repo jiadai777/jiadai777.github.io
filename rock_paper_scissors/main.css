@@ -1,0 +1,33 @@
+.player-col {
+	width: 30%;
+	display: block;
+}
+
+.text-center {
+	text-align: center;
+}
+
+img {
+	margin: 10px 15px;
+}
+
+.player-img:hover {
+	border: 3px green solid;
+	margin: 7px 15px;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+.yellow {
+	color: yellow;
+}
+
+.blue {
+	color: blue;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock Paper Scissors</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="col-xs-12 text-center">
+		<h1 id="result">Click on an image in the first row</h1>
+	</div>
+
+	<h2 class="col-xs-12">Player Choice:</h2>
+	<div class="col-xs-4 text-center">
+		<img src="rock.png" class="player-img" onclick="playerChooseRock()">
+	</div>
+	<div class="col-xs-4 text-center">
+		<img src="paper.png" class="player-img" onclick="playerChoosePaper()">
+	</div>
+	<div class="col-xs-4 text-center">
+		<img src="scissors.png" class="player-img" onclick="playerChooseScissors()">
+	</div>
+	
+	<h2 class="col-xs-12">AI Choice:</h2>
+	<div class="col-xs-4 text-center">
+		<img src="rock.png" id="ai1">
+	</div>
+	<div class="col-xs-4 text-center">
+		<img src="paper.png" id="ai2">
+	</div>
+	<div class="col-xs-4 text-center">
+		<img src="scissors.png" id="ai3">
+	</div>
+
+	<div class="col-xs-3">
+		<h2>Results Record:</h2>
+	</div>
+	<div class="col-xs-3">
+		<h2 class = "blue" id="total">Total Clicks: 0</h2>
+	</div>
+	<div class="col-xs-2">
+		<h2 class="green" id="win">Win: 0</h2>
+	</div>
+	<div class="col-xs-2">
+		<h2 class="red" id="lose">Lose: 0</h2>
+	</div>
+	<div class="col-xs-2">
+		<h2 class="yellow" id="tie">Tie: 0</h2>
+	</div>
+
+	<script type="text/javascript" src="main.js"></script>
+	
+</body>
+</html>
