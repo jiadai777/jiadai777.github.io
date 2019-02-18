@@ -49,12 +49,18 @@ p:last-of-type {
 
 .responsive-img {
   max-width: 100%;
-  height: auto;
+  height: 250px;
 }
+@media (max-width: 600px) {
+  .responsive-img {
+    height: 200px;
+  }
+}
+
 
 .responsive-video {
   width: 100%;
-  height: auto;
+  height: 250px;
 }
 
 .close-arrow {
@@ -1320,6 +1326,7 @@ p:last-of-type {
 
 .list-works__element:nth-of-type(even) .list-works__wrap-img {
   order: 2;
+  width: 25%;
 }
 
 .list-works__element:nth-of-type(even) .list-works__description {
